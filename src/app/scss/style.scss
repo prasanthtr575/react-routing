@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.home {
+  background: royalblue;
+  color: #ffffff;
+}
+
+.custom {
+  background: greenyellow;
+  color: #000000;
+}
+
+.tabbar {
+  text-align: center;
+  margin: 0;
+}
+
+.tabbar>.tab {
+  display: inline-block;
+}
+
+.tab {
+  padding: 20px;
+}
+
+.tab:hover {
+  background: orange;
+  color: royalblue;
+  cursor: pointer;
+}
+
+.tab a {
+  text-decoration: none;
+}
