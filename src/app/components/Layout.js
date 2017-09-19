@@ -13,6 +13,7 @@ export default class Layout extends React.Component {
   render() {
     return (
       <div className="full-height">
+          <Header/>
           <Switch>
             <Route path='/home' component={Home}/>
             <Route path='/custom' component={Custom}/>
