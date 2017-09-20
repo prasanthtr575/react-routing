@@ -15,8 +15,8 @@ export default class Layout extends React.Component {
       <div className="full-height">
           <Header/>
           <Switch>
-            <Route path='/home' component={Home}/>
-            <Route path='/custom' component={Custom}/>
+            <Route exact path='/' component={Home}/>
+            <Route path='/custom/:username' component={Custom}/>
           </Switch>
         </div>
       );

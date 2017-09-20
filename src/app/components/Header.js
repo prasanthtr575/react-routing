@@ -6,8 +6,8 @@ export default class Header extends React.Component {
     return (
       <div>
         <ul className="list-inline tabbar">
-          <li className="tab"><Link to='/home'>Home</Link></li>
-          <li className="tab"><Link to='/custom'>Custom</Link></li>
+          <li className="tab"><Link to='/'>Home</Link></li>
+          <li className="tab"><Link to='/custom/prasanth'>Custom</Link></li>
         </ul>
       </div>
       );
